@@ -72,8 +72,8 @@
                 "height": 100
               },
               "position": {
-                "x": 160,
-                "y": 120
+                "x": 130,
+                "y": 150
               },
               "angle": 0,
               "id": "c921c5ba-87f4-4f84-a2d6-27886733eefb",
@@ -124,7 +124,7 @@
                 "height": 80
               },
               "position": {
-                "x": 320,
+                "x": 480,
                 "y": 20
               },
               "angle": 0,
@@ -136,7 +136,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "TR69"
+                  "text": "Message Queue"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -179,28 +179,70 @@
               }
             },
             {
-              "type": "tm.Store",
+              "type": "tm.Actor",
               "size": {
                 "width": 160,
                 "height": 80
               },
               "position": {
-                "x": 510,
-                "y": 20
+                "x": 10,
+                "y": 30
               },
               "angle": 0,
-              "id": "62c32f99-1919-4be1-81cd-bc8ead8eaf05",
-              "z": 7,
+              "id": "67d919b2-90c7-47f5-8226-db2ce527054f",
+              "z": 8,
               "hasOpenThreats": false,
               "attrs": {
                 ".element-shape": {
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "SIP"
+                  "text": "Browser"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "c921c5ba-87f4-4f84-a2d6-27886733eefb"
+              },
+              "target": {
+                "id": "67d919b2-90c7-47f5-8226-db2ce527054f"
+              },
+              "vertices": [
+                {
+                  "x": 100,
+                  "y": 160
+                }
+              ],
+              "id": "9f7e394e-c7ac-49bc-b247-6d7beed7d9e8",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.6011275417137241,
+                    "offset": -5.867565594416764
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Web Response",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 9,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
                 }
               }
             }
