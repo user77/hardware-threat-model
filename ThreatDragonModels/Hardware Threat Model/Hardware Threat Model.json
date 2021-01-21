@@ -11,6 +11,16 @@
         "title": "Modem / Router",
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "id": 0
+      },
+      {
+        "title": "IoT Device",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 1
+      },
+      {
+        "title": "Media Device",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 2
       }
     ]
   }
