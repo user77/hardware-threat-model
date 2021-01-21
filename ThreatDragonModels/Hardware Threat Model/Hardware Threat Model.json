@@ -1,0 +1,17 @@
+{
+  "summary": {
+    "title": "Hardware Threat Model",
+    "owner": "Jon",
+    "description": "Test Threat Model for hardware security testing."
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "Modem / Router",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ]
+  }
+}
